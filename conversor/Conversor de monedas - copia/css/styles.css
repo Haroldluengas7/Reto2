@@ -1,0 +1,56 @@
+/* fondo #212529  recuadro formulario #6c757d botón #6c757d */
+*{
+    margin: 0%;
+    padding: 0%;
+    color: #000;
+}
+.formulario{
+    height: auto;
+    width: 100%;
+    padding: 5% 1%;
+    text-align: center;
+    background-color: #c7c8c9;
+    
+}
+.formulario > input, label, select{
+    display: inline-block;
+    width:  80%;
+    height: 80px;
+    margin: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+
+
+}
+.formulario > button{
+    
+    border:none;
+    width: 50%;
+    height: 50px;
+    font-size: larger;
+}
+.formulario > button:hover{
+    
+background-color: #000;
+color: #fff;
+}
+
+#resultado{
+    margin-top: 30px;
+    font-family: sans-serif;
+    background-color: #fff;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    height: 20px;
+    padding: 30px;
+}
+
+#miGrafica{
+    width: 400px;
+    height: 300px;
+}
+    
